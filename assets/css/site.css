@@ -599,7 +599,10 @@ button { font: inherit; color: inherit; }
 }
 @media (max-width: 600px) {
   .hero { min-height: min(88vh, 760px); }
-  h1 .nb, h2 .nb, .tie-long { white-space: normal; }
+  :root { --fs-h2: 1.7rem; }
+  h1 .nb, h1 .tie-long { white-space: normal; }
+  .article-hero h1 { font-size: 1.55rem; }
+  .article-hero h1 .tie-long { white-space: nowrap; }
   .hero h1 { max-width: none; }
   .hero-scrim { background: linear-gradient(to top, rgba(30, 37, 74, .96) 0%, rgba(30, 37, 74, .7) 45%, rgba(30, 37, 74, .2) 85%, rgba(30, 37, 74, .05)); }
   .cta-row .btn { width: 100%; }
