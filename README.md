@@ -18,7 +18,7 @@ Hosted for review at https://claytonmott-websites.github.io/forus-website-review
 | `story-world-agriculture-forum.html` | `/stories/[slug]` | Second story on the same template, the World Agriculture Forum announcement. |
 | `register.html` | `/register` | Conversion page and handoff shell. |
 | `privacy.html`, `terms.html` | footer routes | Branded shells, clearly marked "content pending". |
-| `ecosystem.html` | `/ecosystem` | The existing detailed Features / Ecosystem page. Content unchanged; its header and footer menus were aligned to the new site's navigation for the review build. Linked from How FORUS Works and the footer, not from primary navigation. |
+| `ecosystem.html` | `/ecosystem` | The existing detailed Features / Ecosystem page. Content unchanged; its header and footer menus were aligned to the new site's navigation for the review build, and its sections reordered to Twelve products, Your journey, Find your fit, Explore the products, Ways to join. Linked from How FORUS Works and the footer, not from primary navigation. |
 
 Shared: `assets/css/site.css` (all styles, tokens at the top), `assets/js/site.js` (header state, mobile menu, scroll reveal; no dependencies), `assets/brand/` (logos, mark, pattern tile, .coop mark), `assets/img/` (photography at 720, 1200 and 1672px widths), `favicon.svg`.
 

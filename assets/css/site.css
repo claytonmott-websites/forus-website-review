@@ -548,6 +548,7 @@ button { font: inherit; color: inherit; }
 }
 @media (max-width: 900px) {
   :root { --header-h: 76px; }
+  br.desk { display: none; }
   .nav {
     position: fixed; inset: 0; z-index: 55; flex-direction: column; justify-content: center; align-items: stretch; gap: 8px;
     padding: 96px var(--gutter) 40px; background: var(--night-blue);
