@@ -2,6 +2,10 @@
 
 Built from `FORUS_Public_Website_Master_Brief_v1.1.md` (12 September 2026). This folder is a complete static site. Open `index.html` in a browser to review it locally; every page links to the others with relative paths, so it works from disk, from any static host, or dropped into a framework's `public` folder.
 
+## Review build
+
+Hosted for review at https://claytonmott-websites.github.io/forus-website-review/ (GitHub Pages, repository `claytonmott-websites/forus-website-review`). Push to `main` to update it.
+
 ## Pages
 
 | File | Route in the brief | Notes |
@@ -14,7 +18,7 @@ Built from `FORUS_Public_Website_Master_Brief_v1.1.md` (12 September 2026). This
 | `story-world-agriculture-forum.html` | `/stories/[slug]` | Second story on the same template, the World Agriculture Forum announcement. |
 | `register.html` | `/register` | Conversion page and handoff shell. |
 | `privacy.html`, `terms.html` | footer routes | Branded shells, clearly marked "content pending". |
-| `ecosystem.html` | `/ecosystem` | The existing detailed Features / Ecosystem page, copied in unchanged. Linked from How FORUS Works and the footer, not from primary navigation. |
+| `ecosystem.html` | `/ecosystem` | The existing detailed Features / Ecosystem page. Content unchanged; its header and footer menus were aligned to the new site's navigation for the review build. Linked from How FORUS Works and the footer, not from primary navigation. |
 
 Shared: `assets/css/site.css` (all styles, tokens at the top), `assets/js/site.js` (header state, mobile menu, scroll reveal; no dependencies), `assets/brand/` (logos, mark, pattern tile, .coop mark), `assets/img/` (photography at 720, 1200 and 1672px widths), `favicon.svg`.
 
