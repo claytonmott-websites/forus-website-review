@@ -348,8 +348,8 @@ button { font: inherit; color: inherit; }
 .mosaic .m4 { grid-column: 1 / 6; grid-row: 3 / 4; }
 .mosaic .m-text { grid-column: 6 / 13; grid-row: 3 / 4; display: flex; align-items: center; padding: 0 0 0 clamp(16px, 3vw, 40px); }
 .word-list { font-size: clamp(1.5rem, 1.05rem + 1.5vw, 2.05rem); font-weight: 800; letter-spacing: -.02em; line-height: 1.18; color: var(--night-blue); }
-.word-list span { display: inline; }
-.word-list span::after { content: "."; color: var(--orange); margin-right: .35em; }
+.word-list span { display: inline; white-space: nowrap; }
+.word-list span:not(:last-child)::after { content: "\00B7"; color: var(--orange); margin: 0 .38em; }
 
 /* --------------------------------------------------------------------------
    Full-bleed statement (network effect, final CTA)
@@ -662,7 +662,7 @@ button { font: inherit; color: inherit; }
 .ab-hero .copy { position: relative; display: flex; align-items: flex-end; padding: calc(var(--header-h) + 80px) clamp(24px, 5vw, 72px) clamp(56px, 6vw, 88px) max(var(--gutter), calc((100vw - var(--container)) / 2)); overflow: hidden; }
 .ab-hero .copy::before { content: ""; position: absolute; right: -140px; top: 60px; width: 520px; height: 520px; background: url("../brand/forus-mark-white.svg") center / contain no-repeat; opacity: .05; pointer-events: none; }
 .ab-hero .copy > div { position: relative; }
-.ab-hero h1 { color: var(--white); font-size: clamp(2.3rem, 1.3rem + 3.4vw, 4.1rem); max-width: 13ch; }
+.ab-hero h1 { color: var(--white); font-size: clamp(2.3rem, 1.3rem + 3.4vw, 4.1rem); max-width: 18ch; }
 .ab-hero .lead { margin-top: 28px; max-width: 44ch; color: rgba(255, 255, 255, .88); }
 .ab-hero .sub { margin-top: 18px; max-width: 46ch; color: rgba(255, 255, 255, .7); font-size: 1.0625rem; }
 .ab-hero .media { position: relative; min-height: 480px; }
