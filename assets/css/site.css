@@ -411,7 +411,7 @@ button { font: inherit; color: inherit; }
 
 /* Sector strip */
 .sector-strip { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 32px; }
-.sector-strip > span { display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 999px; background: var(--white); border: 1px solid rgba(30, 37, 74, .16); font-weight: 600; font-size: .9375rem; line-height: 1.2; color: var(--night-blue); white-space: nowrap; }
+.sector-strip > span { display: inline-block; padding: 12px 18px; border-radius: 999px; background: var(--white); border: 1px solid rgba(30, 37, 74, .16); font-weight: 600; font-size: .9375rem; line-height: 1.2; color: var(--night-blue); white-space: nowrap; }
 .sector-strip > span span { display: inline; padding: 0; border: 0; background: none; }
 
 /* --------------------------------------------------------------------------
