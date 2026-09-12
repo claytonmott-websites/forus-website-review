@@ -222,7 +222,7 @@ button { font: inherit; color: inherit; }
 }
 .hero-content { position: relative; max-width: 820px; }
 .hero h1 { color: var(--white); max-width: 20ch; }
-.nb { white-space: nowrap; }
+.nb, .tie, .tie-long { white-space: nowrap; }
 .hero-home h1 { font-size: clamp(2.5rem, 1.5rem + 4.3vw, 4.6rem); }
 .hero .lead { color: rgba(255, 255, 255, .84); max-width: 50ch; margin-top: 24px; }
 .hero .eyebrow { color: var(--light-blue); }
@@ -599,7 +599,7 @@ button { font: inherit; color: inherit; }
 }
 @media (max-width: 600px) {
   .hero { min-height: min(88vh, 760px); }
-  h1 .nb, h2 .nb { white-space: normal; }
+  h1 .nb, h2 .nb, .tie-long { white-space: normal; }
   .hero h1 { max-width: none; }
   .hero-scrim { background: linear-gradient(to top, rgba(30, 37, 74, .96) 0%, rgba(30, 37, 74, .7) 45%, rgba(30, 37, 74, .2) 85%, rgba(30, 37, 74, .05)); }
   .cta-row .btn { width: 100%; }
