@@ -12,7 +12,7 @@ Hosted for review at https://claytonmott-websites.github.io/forus-website-review
 |---|---|---|
 | `index.html` | `/` | Home. All nine sections from the brief, in order. |
 | `how-forus-works.html` | `/how-forus-works` | Journey, ecosystem, kinds of cooperatives, reference link, CTA. |
-| `about.html` | `/about` | Institutional profile, rebuilt 12 September 2026: split cover hero with fact strip, What FORUS is with a journey spine, Why FORUS exists with the fragmented-versus-connected graphic, Built by a cooperative (full-bleed ownership statement), the five-node cooperative ecosystem chain, A wider network (overlapping panel), the registration plate, the vision statement, CTA. All styles are scoped under `.ab-` classes. |
+| `about.html` | `/about` | Institutional profile, rebuilt 12 September 2026: split cover hero with fact strip, What FORUS is with a journey spine, Why FORUS exists with the two supplied graphics (`assets/img/about-graphic-1` and `-2`, the usual picture versus with FORUS), Built by a cooperative (full-bleed ownership statement), the five-node cooperative ecosystem chain, A wider network (overlapping panel), the registration plate, the vision statement, CTA. All styles are scoped under `.ab-` classes. |
 | `stories.html` | `/stories` | Hero, featured story, feed, launch state. |
 | `story-template.html` | `/stories/[slug]` | The story detail template, populated with the DotCooperation announcement. |
 | `story-world-agriculture-forum.html` | `/stories/[slug]` | Second story on the same template, the World Agriculture Forum announcement. |

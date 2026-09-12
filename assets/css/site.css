@@ -683,26 +683,8 @@ button { font: inherit; color: inherit; }
 /* Why FORUS exists: fragmented versus connected */
 .ab-why { background: var(--sand); }
 .ab-contrast { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-.ab-panel { position: relative; min-height: 380px; border-radius: var(--radius); padding: 26px 28px; overflow: hidden; }
-.ab-panel small { display: block; font-size: .72rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
-.ab-panel.frag { background: var(--white); border: 1px solid var(--line); }
-.ab-panel.frag small { color: var(--ink-mute); }
-.ab-panel.frag .tile { position: absolute; padding: 12px 16px; border-radius: 10px; border: 1.5px dashed rgba(30, 37, 74, .35); font-size: .9375rem; font-weight: 600; color: var(--ink-soft); background: var(--white); }
-.ab-panel.frag .t1 { left: 8%; top: 30%; transform: rotate(-6deg); }
-.ab-panel.frag .t2 { right: 10%; top: 24%; transform: rotate(4deg); }
-.ab-panel.frag .t3 { left: 18%; bottom: 20%; transform: rotate(3deg); }
-.ab-panel.frag .t4 { right: 8%; bottom: 14%; transform: rotate(-5deg); }
-.ab-panel.frag .gap { position: absolute; left: 50%; top: 52%; transform: translate(-50%, -50%); width: 96px; height: 96px; border-radius: 50%; border: 2px dashed rgba(30, 37, 74, .25); display: grid; place-items: center; font-size: .7rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-mute); text-align: center; line-height: 1.3; padding: 8px; }
-.ab-panel.conn { background: var(--night-blue); color: var(--white); }
-.ab-panel.conn small { color: var(--light-blue); }
-.ab-ring { position: absolute; left: 50%; top: 55%; transform: translate(-50%, -50%); width: 240px; height: 240px; border-radius: 50%; border: 2px solid rgba(129, 202, 201, .6); display: grid; place-items: center; }
-.ab-ring::before { content: ""; position: absolute; inset: 28px; border-radius: 50%; border: 1px solid rgba(255, 255, 255, .14); }
-.ab-ring b { position: relative; z-index: 1; width: 144px; height: 144px; border-radius: 50%; background: var(--white); color: var(--night-blue); display: grid; place-items: center; text-align: center; font-size: .95rem; line-height: 1.2; letter-spacing: -.01em; padding: 12px; box-shadow: 0 16px 40px rgba(0, 0, 0, .3); }
-.ab-ring span { position: absolute; padding: 8px 12px; border-radius: 999px; background: var(--night-blue); border: 1.5px solid rgba(129, 202, 201, .7); font-size: .78rem; font-weight: 700; white-space: nowrap; color: var(--white); }
-.ab-ring .n { top: -18px; left: 50%; transform: translateX(-50%); }
-.ab-ring .e { right: -46px; top: 50%; transform: translateY(-50%); }
-.ab-ring .s { bottom: -18px; left: 50%; transform: translateX(-50%); }
-.ab-ring .w { left: -46px; top: 50%; transform: translateY(-50%); }
+.ab-contrast figure { margin: 0; border-radius: var(--radius); overflow: hidden; box-shadow: 0 18px 44px rgba(30, 37, 74, .12); }
+.ab-contrast img { width: 100%; height: auto; display: block; }
 .ab-why .lead { color: var(--ink); font-weight: 600; }
 
 /* Built by a cooperative: full-bleed ownership statement */
@@ -785,10 +767,6 @@ button { font: inherit; color: inherit; }
   .ab-reg div { grid-template-columns: 1fr; gap: 6px; }
 }
 @media (max-width: 600px) {
-  .ab-panel { min-height: 340px; }
-  .ab-ring { width: 222px; height: 222px; }
-  .ab-ring b { width: 118px; height: 118px; font-size: .85rem; }
-  .ab-ring .e { right: -30px; } .ab-ring .w { left: -30px; }
   .ab-spine { gap: 12px 14px; }
   .ab-own h2 { max-width: none; }
 }
